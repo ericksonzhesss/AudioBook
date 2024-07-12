@@ -3,7 +3,7 @@
 from gtts import gTTS
 
 #Importing PDF reader PyPDF2
-import PyPDF2
+import PyPDF1
 
 #Open file Path
 pdf_File = open('name.pdf', 'rb') 
