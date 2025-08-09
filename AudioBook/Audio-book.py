@@ -19,7 +19,14 @@ for i in range(count):
     page = pdf_Reader.getPage(i)    
     textList.append(page.extractText())
    except:
-       pass
+       pass  text-align: center;
+}
+@media(max-width:767px){
+  .eyes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 #Converting multiline text to single line text
 textString = " ".join(textList)
